@@ -10,8 +10,5 @@
   "dependencies": {
     "tailwindcss": "^3.4.3",
     "vulmix": "preview"
-  },
-  "resolutions": {
-    "@types/mime": "3.0.4"
   }
 }
