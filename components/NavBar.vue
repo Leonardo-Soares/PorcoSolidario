@@ -4,6 +4,11 @@
       <h1> Porco Solidário </h1>
       <ul class="flex gap-8">
         <li>
+          <Link to="/">
+            Home
+          </Link>
+        </li>
+        <li>
           <Link to="/sobre">
             Sobre
           </Link>
@@ -39,12 +44,16 @@
         a {
           @apply text-paragraph;
           font-weight: 600;
+
+          &.router-link-exact-active {
+            @apply text-secondary;
+          }
         }
       }
     }
     button {
       border-radius: 16px;
-      padding: 12px 40px; 
+      padding: 12px 40px;
       font-weight: 700;
       transition: all 0.4s;
       transform: scale(1);
